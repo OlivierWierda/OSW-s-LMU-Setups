@@ -10,15 +10,15 @@ UpgradeSetting=(401672,0,0,0)
 //Note: settings commented out if using the default
 
 [GENERAL]
-Notes="OSW-Sim-Sports 2026ÿ"
+Notes=""
 Symmetric=1
 CGHeightSetting=0//Non-adjustable
 CGRightSetting=0//Non-adjustable
 CGRearSetting=0//Non-adjustable
 WedgeSetting=0//N/A
-FuelSetting=21//0.22
-FuelCapacitySetting=0//22.0L (9.2 laps)
-VirtualEnergySetting=100//100% (32.5 laps)
+FuelSetting=77//0.78
+FuelCapacitySetting=0//78.0L (33.6 laps)
+VirtualEnergySetting=100//100% (33.5 laps)
 NumPitstopsSetting=0//0
 Pitstop1Setting=58//N/A
 Pitstop2Setting=58//N/A
@@ -37,19 +37,19 @@ FWSetting=0//Standard
 RWSetting=4//4.0 deg
 
 [BODYAERO]
-WaterRadiatorSetting=10//Closed
-OilRadiatorSetting=10//Closed
-BrakeDuctSetting=6//60%
-BrakeDuctRearSetting=5//50%
+WaterRadiatorSetting=9//90%
+OilRadiatorSetting=9//90%
+BrakeDuctSetting=1//10%
+BrakeDuctRearSetting=0//Open
 
 [SUSPENSION]
 FrontWheelTrackSetting=0//Non-adjustable
 RearWheelTrackSetting=0//Non-adjustable
 FrontAntiSwaySetting=18//30x3 6-6 (hard)
-RearAntiSwaySetting=14//30x3 4-4
+RearAntiSwaySetting=15//30x3 5-5 (hard)
 FrontToeInSetting=15//-0.06 deg
 FrontToeOffsetSetting=0//N/A
-RearToeInSetting=16//-0.00 deg
+RearToeInSetting=18//0.12 deg
 RearToeOffsetSetting=0//N/A
 LeftCasterSetting=0//Non-adjustable
 RightCasterSetting=0//Non-adjustable
@@ -94,8 +94,8 @@ HandbrakePressSetting=0//N/A
 TCSetting=0//Available
 ABSSetting=0//Available
 TractionControlMapSetting=2//2
-TCPowerCutMapSetting=5//5
-TCSlipAngleMapSetting=9//9
+TCPowerCutMapSetting=4//4
+TCSlipAngleMapSetting=8//8
 AntilockBrakeSystemMapSetting=9//9 (Understeer)
 
 [ENGINE]
@@ -136,14 +136,14 @@ SpringSetting=7//8
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=2//5.2 cm
+RideHeightSetting=3//5.3 cm
 SlowBumpSetting=11//P11 (hard)
-FastBumpSetting=11//P11 (hard)
+FastBumpSetting=9//P9
 SlowReboundSetting=0//P0 (soft)
-FastReboundSetting=11//P11 (hard)
+FastReboundSetting=9//P9
 BrakeDiscSetting=0//3.56 cm
 BrakePadSetting=0//1
-CompoundSetting=0//90% Medium
+CompoundSetting=0//64% Medium
 
 [FRONTRIGHT]
 CamberSetting=32//-1.8 deg
@@ -153,14 +153,14 @@ SpringSetting=7//8
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=2//5.2 cm
+RideHeightSetting=3//5.3 cm
 SlowBumpSetting=11//P11 (hard)
-FastBumpSetting=11//P11 (hard)
+FastBumpSetting=9//P9
 SlowReboundSetting=0//P0 (soft)
-FastReboundSetting=11//P11 (hard)
+FastReboundSetting=9//P9
 BrakeDiscSetting=0//3.56 cm
 BrakePadSetting=0//1
-CompoundSetting=0//92% Medium
+CompoundSetting=0//70% Medium
 
 [REARLEFT]
 CamberSetting=23//-1.5 deg
@@ -170,14 +170,14 @@ SpringSetting=8//9
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=4//5.4 cm
-SlowBumpSetting=0//P0 (soft)
-FastBumpSetting=11//P11 (hard)
+RideHeightSetting=5//5.5 cm
+SlowBumpSetting=2//P2
+FastBumpSetting=9//P9
 SlowReboundSetting=11//P11 (hard)
-FastReboundSetting=11//P11 (hard)
+FastReboundSetting=9//P9
 BrakeDiscSetting=0//3.20 cm
 BrakePadSetting=0//1
-CompoundSetting=0//91% Medium
+CompoundSetting=0//63% Medium
 
 [REARRIGHT]
 CamberSetting=23//-1.5 deg
@@ -187,14 +187,14 @@ SpringSetting=8//9
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=4//5.4 cm
-SlowBumpSetting=0//P0 (soft)
-FastBumpSetting=11//P11 (hard)
+RideHeightSetting=5//5.5 cm
+SlowBumpSetting=2//P2
+FastBumpSetting=9//P9
 SlowReboundSetting=11//P11 (hard)
-FastReboundSetting=11//P11 (hard)
+FastReboundSetting=9//P9
 BrakeDiscSetting=0//3.20 cm
 BrakePadSetting=0//1
-CompoundSetting=0//90% Medium
+CompoundSetting=0//63% Medium
 
 [BASIC]
 Downforce=0.500000
