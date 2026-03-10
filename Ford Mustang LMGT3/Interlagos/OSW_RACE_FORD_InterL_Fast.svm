@@ -1,6 +1,6 @@
 VehicleClassSetting="Ford_Mustang_LMGT3 GT3 WEC2025"
 UpgradeSetting=(673329,0,0,0)
-//VEH=F:\SteamLibrary\steamapps\common\Le Mans Ultimate\Installed\Vehicles\Ford_Mustang_GT3_2024\1.13\397_25_MUSTANG.VEH
+//VEH=F:\SteamLibrary\steamapps\common\Le Mans Ultimate\Installed\Vehicles\Ford_Mustang_GT3_2024\1.15\397_25_MUSTANG.VEH
 //UpgradeClass=
 //AI Tweaks=17
 //Estimates=17
@@ -16,9 +16,9 @@ CGHeightSetting=0//Non-adjustable
 CGRightSetting=0//Non-adjustable
 CGRearSetting=0//Non-adjustable
 WedgeSetting=0//N/A
-FuelSetting=82//0.83
-FuelCapacitySetting=0//39.0L (17.3 laps)
-VirtualEnergySetting=47//47% (16.1 laps)
+FuelSetting=76//0.77
+FuelCapacitySetting=0//77.0L (17.4 laps)
+VirtualEnergySetting=100//100% (17.2 laps)
 NumPitstopsSetting=0//0
 Pitstop1Setting=58//N/A
 Pitstop2Setting=58//N/A
@@ -34,22 +34,22 @@ FenderFlareSetting=0//N/A
 FWSetting=0//Standard
 
 [REARWING]
-RWSetting=6//6.0 deg
+RWSetting=7//7.0 deg
 
 [BODYAERO]
-WaterRadiatorSetting=8//80%
-OilRadiatorSetting=8//80%
-BrakeDuctSetting=5//50%
-BrakeDuctRearSetting=5//50%
+WaterRadiatorSetting=10//Closed
+OilRadiatorSetting=10//Closed
+BrakeDuctSetting=2//20%
+BrakeDuctRearSetting=0//Open
 
 [SUSPENSION]
 FrontWheelTrackSetting=0//Non-adjustable
 RearWheelTrackSetting=0//Non-adjustable
-FrontAntiSwaySetting=10//28x2.5 4-4
-RearAntiSwaySetting=6//28x2.5 1-1
+FrontAntiSwaySetting=8//28x2.5 2-2
+RearAntiSwaySetting=9//28x2.5 4-4
 FrontToeInSetting=14//-0.12 deg
 FrontToeOffsetSetting=0//N/A
-RearToeInSetting=20//0.25 deg
+RearToeInSetting=19//0.19 deg
 RearToeOffsetSetting=0//N/A
 LeftCasterSetting=0//Non-adjustable
 RightCasterSetting=0//Non-adjustable
@@ -85,7 +85,7 @@ ChassisAdj10Setting=0//N/A
 ChassisAdj11Setting=0//N/A
 
 [CONTROLS]
-SteerLockSetting=1//270 (11) deg
+SteerLockSetting=5//435 (17.7) deg
 RearBrakeSetting=24//51.0:49.0
 BrakeMigrationSetting=0// 0.0
 BrakePressureSetting=80//120 kgf (100%)
@@ -93,9 +93,9 @@ HandfrontbrakePressSetting=0//N/A
 HandbrakePressSetting=0//N/A
 TCSetting=0//Available
 ABSSetting=0//Available
-TractionControlMapSetting=7//7
-TCPowerCutMapSetting=7//7
-TCSlipAngleMapSetting=11//11
+TractionControlMapSetting=5//5
+TCPowerCutMapSetting=6//6
+TCSlipAngleMapSetting=7//7
 AntilockBrakeSystemMapSetting=9//9 (Understeer)
 
 [ENGINE]
@@ -119,7 +119,7 @@ RatioSetSetting=0//Standard
 DiffPumpSetting=0//N/A
 DiffPowerSetting=0//Non-adjustable
 DiffCoastSetting=0//Non-adjustable
-DiffPreloadSetting=15//15 Nm
+DiffPreloadSetting=80//80 Nm
 FrontDiffPumpSetting=0//0%
 FrontDiffPowerSetting=0//0%
 FrontDiffCoastSetting=0//0%
@@ -132,69 +132,69 @@ GearAutoDownShiftSetting=0//Off
 CamberSetting=32//-1.8 deg
 PressureSetting=0//136 kPa
 PackerSetting=9//0.9 cm
-SpringSetting=4//5
+SpringSetting=3//4
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=0//5.0 cm
-SlowBumpSetting=11//P11 (hard)
+RideHeightSetting=6//5.6 cm
+SlowBumpSetting=9//P9
 FastBumpSetting=6//P6
-SlowReboundSetting=11//P11 (hard)
+SlowReboundSetting=2//P2
 FastReboundSetting=6//P6
 BrakeDiscSetting=0//3.56 cm
 BrakePadSetting=0//1
-CompoundSetting=0//Medium
+CompoundSetting=0//78% Medium
 
 [FRONTRIGHT]
 CamberSetting=32//-1.8 deg
 PressureSetting=0//136 kPa
 PackerSetting=9//0.9 cm
-SpringSetting=4//5
+SpringSetting=3//4
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=0//5.0 cm
-SlowBumpSetting=11//P11 (hard)
+RideHeightSetting=6//5.6 cm
+SlowBumpSetting=9//P9
 FastBumpSetting=6//P6
-SlowReboundSetting=11//P11 (hard)
+SlowReboundSetting=2//P2
 FastReboundSetting=6//P6
 BrakeDiscSetting=0//3.56 cm
 BrakePadSetting=0//1
-CompoundSetting=0//Medium
+CompoundSetting=0//75% Medium
 
 [REARLEFT]
-CamberSetting=28//-1.0 deg
+CamberSetting=26//-1.2 deg
 PressureSetting=0//136 kPa
-PackerSetting=1//0.1 cm
-SpringSetting=8//9
+PackerSetting=0//0.0 cm
+SpringSetting=1//2
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=12//6.2 cm
-SlowBumpSetting=11//P11 (hard)
+RideHeightSetting=16//6.6 cm
+SlowBumpSetting=2//P2
 FastBumpSetting=6//P6
-SlowReboundSetting=11//P11 (hard)
-FastReboundSetting=6//P6
+SlowReboundSetting=9//P9
+FastReboundSetting=8//P8
 BrakeDiscSetting=0//3.20 cm
 BrakePadSetting=0//1
-CompoundSetting=0//Medium
+CompoundSetting=0//77% Medium
 
 [REARRIGHT]
-CamberSetting=28//-1.0 deg
+CamberSetting=26//-1.2 deg
 PressureSetting=0//136 kPa
-PackerSetting=1//0.1 cm
-SpringSetting=8//9
+PackerSetting=0//0.0 cm
+SpringSetting=1//2
 TenderSpringSetting=0//N/A
 TenderTravelSetting=0//Detached
 SpringRubberSetting=0//N/A
-RideHeightSetting=12//6.2 cm
-SlowBumpSetting=11//P11 (hard)
+RideHeightSetting=16//6.6 cm
+SlowBumpSetting=2//P2
 FastBumpSetting=6//P6
-SlowReboundSetting=11//P11 (hard)
-FastReboundSetting=6//P6
+SlowReboundSetting=9//P9
+FastReboundSetting=8//P8
 BrakeDiscSetting=0//3.20 cm
 BrakePadSetting=0//1
-CompoundSetting=0//Medium
+CompoundSetting=0//78% Medium
 
 [BASIC]
 Downforce=0.500000
